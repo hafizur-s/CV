@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.Container {
+    max-width: 800px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 130px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.headding {
+    float: left;
+    padding: 50px;
+}
+
+.headding ht {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.headding hd {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.headding-contuct {
+    float: right;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.headding-contuct a {
+    text-decoration: none;
+}
+
+.headding-contuct a:hover {
+    text-decoration: underline;
+    background-color: gold;
+    cursor: pointer;
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    margin: 20px auto;
+    border: 3px solid white;
+}
+
+.Personal-div-right {
+    float: right;
+    width: 60%;
+}
+
+.Personal-div-left {
+    float: left;
+    width: bold;
+}
+
+.comon-hr {
+    margin: 20px auto;
+    border: 1px solid white;
+}
+
+.work-div-left {
+    float: left;
+    width: 40;
+}
+
+.work-div-right {
+    float: right;
+    width: 60%;
+}
+
+.table-style {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td,
+tr {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
